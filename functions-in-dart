@@ -1,0 +1,29 @@
+
+import 'dart:math';
+  
+void main() {
+//   for (int i = 0; i < 5; i++) {
+//     print('hello ${i + 1}');
+//   }
+  
+  var developer = createDeveloper("Hassna", 1.62 , true);
+  print(developer); // task one 
+  
+  var py = pythagorean(3.0, 4.0);
+    print(" pythagorean = $py"); // task two
+  
+    
+}
+
+String createDeveloper(String name, double height , bool isNewDeveloper){
+  return "This new developer $name is $height feet tall and is or is not a new developer";
+}
+
+
+double pythagorean(double x, double y) {
+  return sqrt(pow(x, 2) + pow(y, 2));
+}
+
+double distance (int x1, int y1, int x2 ,int y2){
+  return 1.1;
+}
